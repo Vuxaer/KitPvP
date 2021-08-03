@@ -1,0 +1,11 @@
+main: me.verlann.KitPvP.main.Main
+name: KitPvP
+author: Vuxaer
+version: 1.0
+api-version: 1.12
+
+commands:
+  beast:
+    description: Opens the GUI for the Beast kit.
+  stats:
+    description: Shows players their stats.
