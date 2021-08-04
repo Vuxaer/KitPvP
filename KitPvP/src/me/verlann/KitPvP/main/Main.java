@@ -91,6 +91,7 @@ public class Main extends JavaPlugin implements CommandExecutor, Listener{
     		
         	e.getDrops().clear();
             e.setDeathMessage("" + ChatColor.AQUA + ChatColor.BOLD + p.getName() + ChatColor.RESET + " was killed by " + ChatColor.AQUA + ChatColor.BOLD + k.getName() + ChatColor.RESET + " (" + ChatColor.RED + Math.round((k.getHealth() / 2) * 100.0) / 100.0 + ChatColor.RESET + " hp)");
+            k.setHealth(20);
     	}
     }
     
